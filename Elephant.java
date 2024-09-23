@@ -14,17 +14,13 @@ public class Elephant extends Actor
      */
     public void act()
     {
-        // Add your action code here.
-<<<<<<< Updated upstream
-        move(1);
-=======
         if(Greenfoot.isKeyDown("left"))
         {
-            move(-1);
+            move(-3);
         }
         else if(Greenfoot.isKeyDown("right"))
         {
-            move(1);
+            move(3);
         }
         
         eat();
@@ -39,6 +35,6 @@ public class Elephant extends Actor
             world.createApple();
             world.increaseScore();
         }
->>>>>>> Stashed changes
+
     }
 }

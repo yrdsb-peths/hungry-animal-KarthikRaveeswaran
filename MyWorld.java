@@ -21,10 +21,8 @@ public class MyWorld extends World
         super(600, 400, 1);
         
         Elephant elephant = new Elephant();
-<<<<<<< Updated upstream
         addObject(elephant, 300,300);
-=======
-        addObject(elephant, 300,200);
+
         
         Label scoreLabel = new Label(0, 80);
         addObject(scoreLabel, 50, 50);
@@ -43,6 +41,6 @@ public class MyWorld extends World
         int x = Greenfoot.getRandomNumber(600);
         int y = 0;
         addObject(apple, x, y);
->>>>>>> Stashed changes
+
     }
 }
